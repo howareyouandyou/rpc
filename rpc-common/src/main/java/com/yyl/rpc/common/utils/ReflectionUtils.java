@@ -21,7 +21,7 @@ public class ReflectionUtils {
      * @param <T> 对象类型
      * @throws IllegalAccessException
      */
-    public static <T> T newInstance(Class<T> clazz) throws IllegalAccessException
+    public static <T> T newInstance(Class<T> clazz) throws IllegalStateException
     {
         try {
             return clazz.newInstance();

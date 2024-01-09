@@ -9,7 +9,7 @@ import lombok.Data;
  * Create by 2024/1/8 20:23
  */
 @Data
-public class Reponse {
+public class Response {
     /**
      * 服务返回编码，0-成功 ，非0失败
      */
