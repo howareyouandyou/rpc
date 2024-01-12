@@ -28,7 +28,7 @@ public class HTTPTransportClient implements TransportClient{
             HttpURLConnection httpConn=(HttpURLConnection) new URL(url).openConnection();
             //设置可以输入输出,post
             httpConn.setDoInput(true);
-            httpConn.setDoInput(true);
+            httpConn.setDoOutput(true);
             httpConn.setUseCaches(false);
             httpConn.setRequestMethod("POST");
 
